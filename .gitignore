@@ -1,1 +1,25 @@
+# Ignore Python virtual environment
 venv/
+
+# Ignore fine-tuned model and large data files
+fine_tuned_deberta/
+tokenized_data.pt
+
+# Ignore training and test results
+results/
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore system-specific files
+.DS_Store
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
